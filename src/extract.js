@@ -2,7 +2,7 @@ const { chromium } = require("playwright");
 const fs = require("fs");
 
 const TARGET_URL =
-  "https://www.vidio.com/live/205-indosiar";
+  "https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV";
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
