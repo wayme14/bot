@@ -2,7 +2,7 @@ const { chromium } = require("playwright");
 const fs = require("fs");
 
 const TARGET_URL =
-  "https://www.hunalondon.net/ar/live-tv?live-channel=23464";
+  "https://www.vidio.com/live/205-indosiar";
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
