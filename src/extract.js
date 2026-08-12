@@ -2,7 +2,7 @@ const { chromium } = require("playwright");
 const fs = require("fs");
 
 const TARGET_URL =
-  "https://video.detik.com/transtv-sec/smil:transtv.smil/playlist.m3u8";
+  "https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=inews";
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
