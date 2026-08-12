@@ -2,7 +2,7 @@ const { chromium } = require("playwright");
 const fs = require("fs");
 
 const TARGET_URL =
-  "https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8";
+  "https://video.detik.com/transtv-sec/smil:transtv.smil/chunklist_w801763586_b744100_sleng_tkd293emF0b2tlbnN0YXJ0dGltZT0wJndvd3phdG9rZW5lbmR0aW1lPTE3ODY1MTE5NTA4OTAmd293emF0b2tlbmhhc2g9azZycmN2elBQTjhuYmswQzhVUEd4NVNNY1d4b3RDUTY0Zm1ieDBqMXYzMD0=.m3u8";
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
