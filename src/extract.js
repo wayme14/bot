@@ -2,7 +2,7 @@ const { chromium } = require("playwright");
 const fs = require("fs");
 
 const TARGET_URL =
-  "https://stream.digitalbroadcast.id/lb0/8b2ccc69-a926-436b-bbc0-fb0822062ac4/index.fmp4.m3u8";
+  "https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8";
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
